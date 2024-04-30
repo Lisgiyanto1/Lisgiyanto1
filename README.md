@@ -1,5 +1,25 @@
 ### Hi there 👋
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Typewriter Animation</title>
+    <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.13.0/dist/core.js"></script>
+  </head>
+  <body>
+    <h1 id="typing-text"></h1>
+    <script>
+      const config = {
+        strings: ['I\'m Lisgiyanto Sofiyan'],
+        autoStart: true,
+        loop: true,
+        delay: 50,
+      };
+
+      const typingText = new Typewriter('#typing-text', config);
+    </script>
+  </body>
+</html>
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
